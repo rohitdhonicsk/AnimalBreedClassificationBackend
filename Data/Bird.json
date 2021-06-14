@@ -1,0 +1,89 @@
+{
+    "Acadian Flycatcher": {
+        "Detail": {
+            "Seasonal Behaviour": "Migrating",
+            "Image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Acadian_Flycatcher.jpg",
+            "Length": "13-15cm",
+            "Food": [
+                "Carnivore",
+                "Insectivores"
+            ],
+            "WingSpan": "23cm",
+            "Weight": "13g",
+            "LifeSpan": "10-11yrs",
+            "MoreInfo": "https://en.wikipedia.org/wiki/Acadian_flycatcher"
+        },
+        "Climate Zones": [
+            "Tropical",
+            "Temperate"
+        ],
+        "References": [
+            "https://animalia.bio/acadian-flycatcher",
+            "https://www.iucnredlist.org/species/22699842/93750963"
+        ],
+        "Scientific": {
+            "Species": " E. virescens",
+            "Kingdom": "Animalia",
+            "Class": "Aves"
+        },
+        "Geography": {
+            "Country": [
+                "Bahamas",
+                "Colombia",
+                "Cuba",
+                "Ecuador",
+                "El Salvador",
+                "Guatemala",
+                "Honduras",
+                "Mexico",
+                "Nicaragua",
+                "Panama"
+            ],
+            "Image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Empidonax_virescens_map.svg",
+            "Continents": [
+                "North America",
+                "South America"
+            ]
+        }
+    },
+    "American crow": {
+        "Species": " E. virescens",
+        "LifeSpan": "10-11yrs",
+        "WingSpan": "23cm",
+        "Climate Zones": [
+            "Tropical",
+            "Temperate"
+        ],
+        "References": [
+            "https://animalia.bio/acadian-flycatcher",
+            "https://www.iucnredlist.org/species/22699842/93750963"
+        ],
+        "Kingdom": "Animalia",
+        "Seasonal Behaviour": "Migrating",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Acadian_flycatcher",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Acadian_Flycatcher.jpg",
+        "Geography": {
+            "Country": [
+                "Bahamas",
+                "Colombia",
+                "Cuba",
+                "Ecuador",
+                "El Salvador",
+                "Guatemala",
+                "Honduras",
+                "Mexico",
+                "Nicaragua",
+                "Panama"
+            ],
+            "Image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Empidonax_virescens_map.svg",
+            "Continents": [
+                "North America",
+                "South America"
+            ]
+        },
+        "Food": "Carnivore, Insectivores",
+        "Weight": "13g",
+        "Length": "13-15cm",
+        "Class": "Aves"
+    }
+}
