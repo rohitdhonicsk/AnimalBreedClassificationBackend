@@ -13,6 +13,10 @@ Animal = os.listdir("Data")
 AnimalKeyJson = {}
 for animal in Animal:
     AnimalKeyJson[animal[:-5]] = json.load(open("Data/" + animal))
+# Case Insensitive lowercase + strip key
+AnimalKeyJson = dict(
+    map(lambda keyv: ((keyv[0].lower()).strip(), keyv[1]), AnimalKeyJson.items())
+)
 
 
 @app.route("/all")
@@ -23,14 +27,22 @@ def printAll():
 @app.route("/animal/<animal>")
 def printAnimal(animal):
     breed = request.args.get("breed")
-    if animal in AnimalKeyJson:
+    queryAnimal = (animal.lower()).strip()
+    if queryAnimal in AnimalKeyJson:
+        BreedKeyV = dict(
+            map(
+                lambda keyv: ((keyv[0].lower()).strip(), keyv[1]),
+                AnimalKeyJson[queryAnimal].items(),
+            )
+        )
         if not breed is None:
-            if breed in AnimalKeyJson[animal]:
-                return AnimalKeyJson[animal][breed]
+            queryBreed = (breed.lower()).strip()
+            if queryBreed in BreedKeyV:
+                return BreedKeyV[queryBreed]
             else:
                 return "Breed " + breed + " Not Found"
 
-        return AnimalKeyJson[animal]
+        return AnimalKeyJson[queryAnimal]
     return "Animal :: Not Exist " + animal + " Dataset "
 
 
