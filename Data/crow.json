@@ -1,0 +1,24 @@
+{
+    "Format": {
+        "papa": [
+            {
+                "name": "mummy",
+                "type": "int",
+                "imp": true
+            },
+            {
+                "name": "chamak",
+                "type": "list",
+                "imp": false
+            }
+        ],
+        "leaveme": [
+            {
+                "name": "ok",
+                "type": "string",
+                "imp": true
+            }
+        ],
+        "done": ""
+    }
+}
