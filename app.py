@@ -87,8 +87,7 @@ def AddDetail():
         return "done"
     else:
         # return "dsd"
-        return "heloo"
-        # return render_template("form.html", ExistAnimal=ExistAnimal)
+        return render_template("form.html", ExistAnimal=ExistAnimal)
 
 
 @app.route("/animal/<animal>")
