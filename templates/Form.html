@@ -454,15 +454,12 @@
   }
 
   function CreateBreedForm() {
+    Form2.innerHTML = ""
     const selected = $("#Animal").find(":selected").text();
 
 
     const url = '/animal/' + selected
     console.log(url)
-
-    getData(url)
-    // console.log(data)
-
     const BreedName = document.createElement('input')
     BreedName.placeholder = " Enter Breed Name "
     BreedName.style.display = "block"
@@ -470,6 +467,10 @@
     BreedName.type = 'text'
 
     Form2.appendChild(BreedName)
+    getData(url)
+    // console.log(data)
+
+
 
 
 
