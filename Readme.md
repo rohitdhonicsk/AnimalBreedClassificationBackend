@@ -17,15 +17,15 @@ This is python flask api that will add new animal and breed detail and also give
 
 ## UI
 1. Home Page Of Api <br>
-![Home](img/about.png)
+![Home](img/about.PNG)
 2. All Animal Data <br>
-![All](img/all.png)
+![All](img/all.PNG)
 3. Add New animal <br>
-![newAnimal](img/addDetail.png)
+![newAnimal](img/addDetail.PNG)
 4. Get Specific Breed Detail <br>
-![breedDetail](img/breed.png)
+![breedDetail](img/breed.PNG)
 5. Add new breed detail <br>
-![newBreed](img/newBreed.png)
+![newBreed](img/newBreed.PNG)
 
 ## Team
 1. Rohit Kumar Gupta
