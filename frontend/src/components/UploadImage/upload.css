@@ -1,20 +1,31 @@
-.uploadContainer{
-    /* border: 2px solid red; */
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    width:60%;
-    height: 60vh;
-    flex-direction: column;
-    margin-left: 25%;
-    margin-right: 25%;
-    
-    /* background-color: black; */
+#bottomrow {
+  display: flex;
+  margin-top: 3%;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-right: 25%;
 }
-.buttonArea{
-    display: flex;
-    width: 60%;
-    margin-top: 25px;
-    /* background-color: red; */
-    justify-content:space-around;
+.uploadContainer {
+  /* border: 2px solid red; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 5px;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  /* background-color: black; */
+}
+.buttonArea {
+  display: flex;
+  width: 60%;
+  margin-top: 25px;
+  /* background-color: red; */
+  justify-content: space-around;
 }
