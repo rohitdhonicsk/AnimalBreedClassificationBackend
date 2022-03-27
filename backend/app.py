@@ -8,6 +8,7 @@ from flask import redirect
 from fastai.vision.all import *
 import pathlib
 from flask_cors import CORS
+from flask import jsonify
 temp = pathlib.PosixPath
 
 pathlib.PosixPath = pathlib.WindowsPath
@@ -37,6 +38,19 @@ read()
 @app.route("/all")
 def printAll():
     return AnimalKeyJson
+
+@app.route("/getAnimal")
+def getAnimal():
+    return jsonify(tuple(AnimalKeyJson.keys()))
+
+@app.route("/getBreed/<animal>")
+def getBreed(animal):
+    data=list(AnimalKeyJson[animal].keys())
+    if "format" in data:
+        data.remove("format")
+    if "Format" in data:
+        data.remove("Format")
+    return jsonify(data)
 
 @app.route("/predict", methods=['POST', 'GET'])
 def predict():

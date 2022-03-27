@@ -89,6 +89,104 @@
             }
         ]
     },
+    "Bird2": {
+        "Detail": {
+            "Seasonal Behaviour": "Landscape",
+            "Image": "https://cc-prod.scene7.com/is/image/CCProdAuthor/bird-photography_P3a_690xx930?$pjpeg$&jpegSize=200&wid=690",
+            "Length": "13-15cm",
+            "Food": [
+                "Carnivore",
+                "Insectivores"
+            ],
+            "WingSpan": "23cm",
+            "Weight": "13g",
+            "LifeSpan": "10-11yrs",
+            "MoreInfo": "https://en.wikipedia.org/wiki/Acadian_flycatcher"
+        },
+        "other": {
+            "Climate Zones": [
+                "Tropical",
+                "Temperate"
+            ],
+            "References": [
+                "https://animalia.bio/acadian-flycatcher",
+                "https://www.iucnredlist.org/species/22699842/93750963"
+            ]
+        },
+        "Scientific": {
+            "Species": " E. virescens",
+            "Kingdom": "Animalia",
+            "Class": "Aves"
+        },
+        "Geography": {
+            "Country": [
+                "Bahamas",
+                "Colombia",
+                "Cuba",
+                "Ecuador",
+                "El Salvador",
+                "Guatemala",
+                "Honduras",
+                "Mexico",
+                "Nicaragua",
+                "Panama"
+            ],
+            "Image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Empidonax_virescens_map.svg",
+            "Continents": [
+                "North America",
+                "South America"
+            ]
+        }
+    },
+    "Bird3": {
+        "Detail": {
+            "Seasonal Behaviour": "Overseas",
+            "Image": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/02/mountain-bluebird-eric-gofreed-arizona-85631521-1280-1280x960.jpg",
+            "Length": "13-15cm",
+            "Food": [
+                "Carnivore",
+                "Insectivores"
+            ],
+            "WingSpan": "23cm",
+            "Weight": "13g",
+            "LifeSpan": "10-11yrs",
+            "MoreInfo": "https://en.wikipedia.org/wiki/Acadian_flycatcher"
+        },
+        "other": {
+            "Climate Zones": [
+                "Tropical",
+                "Temperate"
+            ],
+            "References": [
+                "https://animalia.bio/acadian-flycatcher",
+                "https://www.iucnredlist.org/species/22699842/93750963"
+            ]
+        },
+        "Scientific": {
+            "Species": " E. virescens",
+            "Kingdom": "Animalia",
+            "Class": "Aves"
+        },
+        "Geography": {
+            "Country": [
+                "Bahamas",
+                "Colombia",
+                "Cuba",
+                "Ecuador",
+                "El Salvador",
+                "Guatemala",
+                "Honduras",
+                "Mexico",
+                "Nicaragua",
+                "Panama"
+            ],
+            "Image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Empidonax_virescens_map.svg",
+            "Continents": [
+                "North America",
+                "South America"
+            ]
+        }
+    },
     "Acadian Flycatcher": {
         "Detail": {
             "Seasonal Behaviour": "Migrating",

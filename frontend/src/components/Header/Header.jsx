@@ -15,7 +15,7 @@ export default class Header extends Component {
           <AppBar position="sticky">
             <Toolbar variant="dense">
               <Button
-                href="/detail"
+                href="/detail/show"
                 className="child"
                 color="inherit"
                 variant="text"

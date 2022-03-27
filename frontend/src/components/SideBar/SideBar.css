@@ -1,0 +1,29 @@
+.sidebar .ul {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-around;
+    width: 100%;
+    background-color: #491f1f;
+    border: 2px solid red;
+    /* margin: 0;
+    padding: 0; */
+    /* height: 200px; */
+}
+.sidebar li {
+    margin-bottom: 16px;
+    
+     /* margin: 8px; */
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    border-radius: 10%;
+    box-shadow: rosybrown 2px 3px;
+    /* flex: 0 1 auto; Default */
+    list-style-type: none;
+    background: #fafafa;
+    padding: 8px;
+}
+.sidebar li:hover{
+    background-color: coral;
+}

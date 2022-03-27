@@ -1,0 +1,11 @@
+.breedContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.sideBar{
+    width: 30%;
+}
+.imagePreview{
+    width: 30%;
+}
