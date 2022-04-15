@@ -1,21 +1,41 @@
 # Backend Of Multifold Animal Breeds Classification App (On going)
 
 ## About
-This is python flask api that will add new animal and breed detail and also give breed data detail.
+This project take animal picture in input and predict animal with breed and also give animal details.
 
-## Pending
-- Adding all breeds data detail
-- Creating React Web app to classify any animal detail
-- Creating Android app for classification.
-- adding sqlite database instead of json file for storing breed detail.
+## Goal
+- Building web application that will take input image and sent to backend which will do prediction and sent animal breeds and other details to frontend which will show to user (DONE).
 
-## Done
-- Created ML model for animal classification
-- Collected 450 breeds images
+- Building android application user interface which will support live prediction of animal also (Future Scope)
+
+- Making Responsive and interactive web application (Ongoing).
+
+- Building backend service which will handle frontend request and send predicted data to frontend (Done).
+
+- Building Apis which will responsible to get and post animal data (Done)
+
+- Data Collection , Preprocessing and Building deep learning model for classfication of Animal (Done).
+
+
+
+Tech Stack:
+
+- Data Science
+- Deep learning
+- Flask
+- Fast AI
+- Tensor Flow
+- React JS
+- Open CV
+- Android Java
+- SQlite DB
+
+## Dataset
+- Collected 450 breeds images of around 20+ Animals
 - Created Form for adding any new animal / breeds detail.
 - Created End point for getting all animals / breed detail. 
 
-## UI
+## Backend API UI
 1. Home Page Of Api <br>
 ![Home](img/about.PNG)
 2. All Animal Data <br>
@@ -26,6 +46,12 @@ This is python flask api that will add new animal and breed detail and also give
 ![breedDetail](img/breed.PNG)
 5. Add new breed detail <br>
 ![newBreed](img/newBreed.PNG)
+
+## Frontend UI (Ongoing)
+1. Upload and predict <br>
+![newBreed](img/UI1.PNG)
+2. Show all breed database <br>
+![newBreed](img/UI2.PNG)
 
 ## Team
 1. Rohit Kumar Gupta
