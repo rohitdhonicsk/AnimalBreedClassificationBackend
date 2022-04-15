@@ -49,9 +49,9 @@ Tech Stack:
 
 ## Frontend UI (Ongoing)
 1. Upload and predict <br>
-![newBreed](img/UI1.PNG)
+![newBreed](img/UI1.png)
 2. Show all breed database <br>
-![newBreed](img/UI2.PNG)
+![newBreed](img/UI2.png)
 
 ## Team
 1. Rohit Kumar Gupta
