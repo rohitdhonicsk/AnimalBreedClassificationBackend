@@ -5,7 +5,7 @@ import { Table } from 'react-bootstrap'
 export default class Card extends Component {
   render() {
     const BreedData = this.props.data;
-    console.log("Car", BreedData)
+    console.log("Breed ", BreedData)
     return (
 
       <div>
