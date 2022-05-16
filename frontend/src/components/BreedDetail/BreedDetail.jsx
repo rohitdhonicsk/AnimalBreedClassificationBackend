@@ -34,6 +34,14 @@ class BreedDetail extends Component {
                 <div className="imagePreview">
                     <ImagePreview imgPath={imgPath}></ImagePreview>
                 </div>
+
+
+                {(breedData
+                    && Object.keys(breedData).length === 0) ?
+                    <div></div> :
+                    <div className="cardDetail">
+                        <Card data={breedData}></Card>
+                    </div>}
                 {/* <Card></Card> */}
             </div>
 
